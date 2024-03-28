@@ -18,6 +18,7 @@ const App = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
     if (step === 0) {
       if (formData.firstname && formData.lastname && formData.age) {
         setStep(step + 1);
